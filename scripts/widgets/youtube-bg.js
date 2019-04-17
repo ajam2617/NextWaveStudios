@@ -38,7 +38,7 @@ module.exports = function(){
 			var videoId = $youtubeBg.data('video');
 			var vol = $youtubeBg.data('volume');
 			var mute = $youtubeBg.data('mute');
-			var elId = $youtubeBg.attr('id');
+			var elId = "HmMObdadRDs";
 			var isNotDone = true;
 			var player = new YT.Player(elId, {
 				videoId: videoId,

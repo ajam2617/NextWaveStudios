@@ -93,7 +93,7 @@ module.exports = function(){
 					onStateChange: function(event){
 						if(isNotDone && event.data === YT.PlayerState.PLAYING){
 							isNotDone = false;
-							(dones[elId])();
+							(done[elId])();
 						}else if(event.data === YT.PlayerState.ENDED){
 							event.target.playVideo();
 						}
@@ -102,4 +102,6 @@ module.exports = function(){
 			});
 		});	
 	};
+
+
 };

@@ -26,7 +26,8 @@
 	font-style: normal;
 	speak: none;
 	font-weight: normal;
-	line-height: 1;
+	zoom: 1;
+	line-height: 2;
 	-webkit-font-smoothing: antialiased;
 }
 .li_heart:before {

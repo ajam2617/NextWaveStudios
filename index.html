@@ -75,7 +75,7 @@
 			<li><a href="https://www.instagram.com/nxtwavestudios/" target="_blank"><i class="fa fa-instagram"></i></a>
 			</li>
 			<li><a href="https://www.linkedin.com/in/nextwave-studios-651104184/" target="_blank"><i
-				class="fa fa-linkedin"></i></a></li>
+						class="fa fa-linkedin"></i></a></li>
 		</ul>
 	</div>
 	<!-- BEGIN: Top menu -->
@@ -133,7 +133,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="gate colors-e background-solid">
 		<div class="gate-bar background-highlight-e"></div>
 		<ul class="loader">
@@ -143,17 +143,17 @@
 		</ul>
 	</div>
 	<!-- BEGIN: Page content -->
-	
+
 	<section id="home">
-		
+
 		<div class="view">
-			<div class="content home-mary full-size colors-a" >
-					
+			<div class="content home-mary full-size colors-a">
+
 				<div id="vidPromo" style="z-index: 100">
-							
-						<video width="100%" height="100%" autoplay>
-									<source src="images/output_HD360.mp4">
-						</video>
+
+					<video width="100%" height="100%" autoplay>
+						<source src="images/output_HD360.mp4">
+					</video>
 
 				</div>
 
@@ -168,7 +168,7 @@
 							<li>We Are Creative</li>
 						</ul>
 					</div>
-					
+
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<p class="text-center"><a href="#about"
@@ -176,12 +176,12 @@
 									class="button background-60-f heading-f border-hard">Our Work</a></p>
 						</div>
 					</div>
+				</div>
 			</div>
-		</div>
 	</section>
 	<section id="about">
 		<div class="view">
-		
+
 			<div class="content pane">
 				<div class="container-fluid">
 					<div class="row hidden-xs hidden-sm">
@@ -576,7 +576,8 @@
 										flourish. </p>
 								</div>
 								<div class="tab-pane fade" id="social">
-									<p>Keeping up with today's marketing strategies can be tough! We can serve as your outsourced social
+									<p>Keeping up with today's marketing strategies can be tough! We can serve as your
+										outsourced social
 										media and digital marketing manager. Set up a consultation for Strategy, Content
 										Development, Campaigns, and Reporting.</p>
 								</div>
@@ -586,10 +587,10 @@
 										investors, and collaborators. These visual cues are important in today's
 										creative and modern world.</p>
 								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
 	</section>
 	<section id="contact">
 		<div class="view">
@@ -720,15 +721,15 @@
 	<script src="lib/prism/prism.js"></script>
 	<script>
 		var $ = jQuery;
-		
+
 		// $(window).load(function() {
 		// 	$("iframe").height($(window).height());
-       	// 	$("iframe").width($(window).width());
+		// 	$("iframe").width($(window).width());
 
-       	// 	$( window ).resize(function() {
-        //    	 	$("iframe").height($(window).height());
-        //     	$("iframe").width($(window).width());
-        // });
+		// 	$( window ).resize(function() {
+		//    	 	$("iframe").height($(window).height());
+		//     	$("iframe").width($(window).width());
+		// });
 		// });
 
 		$(window).load(function () {
@@ -739,6 +740,7 @@
 				$(".view").css("background-repeat", "no-repeat");
 				$(".view").css("background-size", "100% 100%");
 				$(".view").css("width", "100%");
+				$(".view").css("height", "100vh");
 			}, 10000);
 		});
 
@@ -763,7 +765,7 @@
 			var isSafari = !isChrome && ua.indexOf('safari') !== -1;
 			if (isSafari) $('html').addClass('safari');
 			var isMobile =
-			false; //Change false to Modernizr.touch if you want to disable animations on touchscreen devices;
+				false; //Change false to Modernizr.touch if you want to disable animations on touchscreen devices;
 			if (isMobile) {
 				$('html').addClass('mobile');
 				if (disableMobileAnimations) $('html').addClass('poor-browser');

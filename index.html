@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-custom.min.css" />
 	<link rel="stylesheet" href="lib/linecons/style.css" />
 	<link rel="stylesheet" href="styles/style.min.css" />
+	<link rel="stylesheet" href="styles/style.css">
 	<link rel="stylesheet" href="theme-custom.css" />
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -26,6 +27,8 @@
 	<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png" />
 	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png" />
 	<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body class="state1 background-100-e">
@@ -228,7 +231,9 @@
 							<li>We Are Creative</li>
 						</ul>
 					</div>
-
+					<div>
+						<img src="./images/NW LOGO mini.png" alt="landingPageLogo" class="NWlogo">
+					</div>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<p class="text-center"><a href="#about"
@@ -907,6 +912,7 @@
 						it is our goal to achieve said needs with the many tools at our disposal. Here’s a list of some
 						of the web technologies, frameworks, scripts and tools that we have to offer.</p>
 					<div class="row">
+						<div class="col-md-2"></div>
 						<div class="col-md-8">
 							<ul class="widget-tabs nav nav-tabs background-lite-e">
 								<li class="active"><a href="#brand" data-toggle="tab">Brand Refreshment</a></li>
@@ -1208,6 +1214,10 @@
 			$("#textPromo").hide();
 			timer = setTimeout(function () {
 				$("#textPromo").show();
+				$(".view").css("background-image", "url('https://media.giphy.com/media/YW5i0QTaCH3qw/giphy.gif')");
+				$(".view").css("background-repeat", "no-repeat");
+				$(".view").css("background-size", "100% 100%");
+				$(".view").css("width", "100%");
 			}, 10000);
 		});
 

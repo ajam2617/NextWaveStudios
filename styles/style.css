@@ -4076,6 +4076,13 @@ p {
 /*==================================================================
 28. Home Variants / .home-angie, .home-lynda, .home-lucy, .home-alice, .home-mary, .home-suzi
 ==================================================================*/
+.NWlogo {
+  margin-left: 42%;
+  margin-right: auto;
+  width: 15%;
+
+ }
+
 .home-angie .full-size {
   padding-top: 80px;
   padding-bottom: 75px;
@@ -4221,6 +4228,7 @@ p {
 .home-suzi .textillate {
   font-size: 35px;
   line-height: 35px;
+  color: black;
 }
 @media (max-width: 991px) {
   .home-alice .textillate,

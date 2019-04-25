@@ -31,7 +31,7 @@
 
 </head>
 
-<body class="state1 background-100-e">
+<body class="state1">
 	<div class="ext-nav background-95-h page-transition">
 		<div class="view half-height">
 			<img alt class="bg static" src="images/AI-art.jpg" />
@@ -134,7 +134,7 @@
 			<li class="background-100-d"></li>
 		</ul>
 	</div>
-	<div class="overlay-window map-overlay colors-f background-95-f">
+	<div class="overlay-window map-overlay colors-f">
 		<div class="overlay-control background-90-f">
 			<a class="cross" href="#"></a>
 		</div>
@@ -211,8 +211,8 @@
 		</ul>
 	</div>
 	<!-- BEGIN: Page content -->
-	<div id="vidPromo" style="position: fixed; z-index: 100; width: 100%; height: 100%">
-		<iframe frameborder="0" style="object-fit:contain" height="100%" width="100%" src="images/output_HD360.mp4">
+	<div id="vidPromo" style="position: absolute; z-index: 100; width: 100%; height: 100vh">
+		<iframe frameborder="0" style="object-fit:contain; height: 100vh; width: 100%" src="images/output_HD360.mp4">
 		</iframe>
 	</div>
 	<!-- <div class="youtube-bg" data-video="HmMObdadRDs" data-mute="yes" data-volume="50"  data-alternative="images/placeholders/1920x1200-0.jpg"></div> -->
@@ -1209,6 +1209,16 @@
 	<script src="lib/prism/prism.js"></script>
 	<script>
 		var $ = jQuery;
+		
+		$(window).load(function() {
+			$("iframe").height($(window).height());
+       		$("iframe").width($(window).width());
+
+       		$( window ).resize(function() {
+           	 	$("iframe").height($(window).height());
+            	$("iframe").width($(window).width());
+        });
+		});
 
 		$(window).load(function () {
 			$("#textPromo").hide();

@@ -3742,7 +3742,7 @@ footer.colors-e.border-top {
   background-color: rgba(255, 255, 255, 0.95) !important;
 }
 .background-100-e {
-  background-color: #ffffff !important;
+  /* background-color: #ffffff !important; */
 }
 .background-e {
   background-color: rgba(255, 255, 255, 0.88) !important;

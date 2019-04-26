@@ -81,14 +81,17 @@
 	<!-- BEGIN: Top menu -->
 	<div class="page-border right colors-e background-solid"></div>
 	<nav class="navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation"
-		id="top-nav">
+		id="top-nav"> 
 		<div class="container">
 			<div class="navbar-header">
 				<a class="menu-toggle ext-nav-toggle visible-xs-block" data-target=".ext-nav" href="#"><span></span></a>
 				<a class="menu-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"
 					href="#"><span></span></a>
-				<a class="navbar-brand" href="">Nextwave<span class="highlight">Studios</span></a>
+					<div>
+							<a><img src="images/NW LOGO mini.jpg" href="" width="180" height="60"></a>
+						</div>
 			</div>
+			
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#home" class="hover-effect">Home</a></li>
@@ -147,10 +150,10 @@
 	<section id="home">
 		<div class="view" id="backgroundSF">
 			<div class="content home-mary full-size colors-a">
-				<div id="vidPromo" style="z-index: 100">
+				<!-- <div id="vidPromo" style="z-index: 101">
 					<iframe width="100%" height="100%" src="images/output_HD360.mp4">
 					</iframe>
-				</div>
+				</div> -->
 				<div id="textPromo" class="container">
 					<div class="textillate text-center heading  hidden-xs hidden-sm"
 						data-textillate-options="{loop:true, in:{initialDelay: 10000,effect:'flipInY', reverse:false}, out:{effect:'flipOutY', reverse:false}}">
@@ -165,7 +168,6 @@
 							<li>We Are Gamers</li>
 						</ul>
 					</div>
-
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<p class="text-center"><a href="#about"
@@ -173,6 +175,7 @@
 									class="button background-60-f heading-f border-hard">Our Work</a></p>
 						</div>
 					</div>
+				</div>
 				</div>
 		</div>
 	</section>
@@ -719,20 +722,20 @@
 	<script>
 		var $ = jQuery;
 
-		$(window).load(function () {
-			$("#textPromo").hide();
-			$("#backgroundSF").hide();
-			timer = setTimeout(function () {
-				$("#textPromo").show();
-				$("#backgroundSF").show();
-			}, 10000);
-		});
+		// $(window).load(function () {
+		// 	$("#textPromo").hide();
+		// 	$("#backgroundSF").hide();
+		// 	timer = setTimeout(function () {
+		// 		$("#textPromo").show();
+		// 		$("#backgroundSF").show();
+		// 	}, 10000);
+		// });
 
-		$(window).load(function () {
-			timer = setTimeout(function () {
-				$("#vidPromo").hide();
-			}, 9000);
-		});
+		// $(window).load(function () {
+		// 	timer = setTimeout(function () {
+		// 		$("#vidPromo").hide();
+		// 	}, 9000);
+		// });
 	</script>
 
 	<script>

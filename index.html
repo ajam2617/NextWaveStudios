@@ -145,12 +145,11 @@
 	<!-- BEGIN: Page content -->
 
 	<section id="home">
-		<div class="view">
+		<div class="view" id="backgroundSF">
 			<div class="content home-mary full-size colors-a">
 				<div id="vidPromo" style="z-index: 100">
-					<video width="100%" height="100%">
-						<source src="images/output_HD360.mp4">
-					</video>
+					<iframe width="100%" height="100%" src="images/output_HD360.mp4">
+					</iframe>
 				</div>
 				<div id="textPromo" class="container">
 					<div class="textillate text-center heading  hidden-xs hidden-sm"
@@ -160,7 +159,10 @@
 							<li>We Are Programmers</li>
 							<li>We Are Coders</li>
 							<li>We Are Developers</li>
+							<li>We Are Photographers</li>
+							<li>We Are Videographers</li>
 							<li>We Are Creative</li>
+							<li>We Are Gamers</li>
 						</ul>
 					</div>
 
@@ -172,7 +174,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 	</section>
 	<section id="about">
@@ -720,13 +721,10 @@
 
 		$(window).load(function () {
 			$("#textPromo").hide();
+			$("#backgroundSF").hide();
 			timer = setTimeout(function () {
 				$("#textPromo").show();
-				$("#textPromo").css("background-image", "url('images/sf-background.jpg')");
-				$("#textPromo").css("background-repeat", "no-repeat");
-				$("#textPromo").css("background-size", "100% 100%");
-				$("#textPromo").css("height", "100vh");
-				$(".texts").css("margin-top", "50%");
+				$("#backgroundSF").show();
 			}, 10000);
 		});
 

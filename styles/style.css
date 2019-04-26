@@ -4514,11 +4514,11 @@ body.select-demo {
   padding: 0px;
 }
 body.select-demo > section:first-of-type > .view:first-of-type > .content {
-  padding-top: 60px;
+  padding-top: 0px;
 }
 body.select-demo .view > .content .features {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 body.select-demo .view > .content img {
   width: 100%;
@@ -4553,10 +4553,22 @@ body.select-demo .view > .content .caption {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 22px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 700;
 }
+
+#backgroundSF{
+  background-image: url("../images/sf-background.jpg");
+  background-repeat: "no-repeat";
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+/* #vidPromo {
+  height: 100%;
+  width: 100%;
+} */
 /*==================================================================
 31. Colors
 ==================================================================*/

@@ -28,7 +28,7 @@ require_once "Mail.php";
 // Change this options:
 $username = 'info@nextwave.studio';
 $password = 'nextWave1!';
-$smtpHost = 'ssl://smtp.gmail.com';
+$smtpHost = 'smtpout.secureserver.net';
 $smtpPort = '465';
 $to = 'info@nextwave.studio';
 $from = 'user@gmail.com';

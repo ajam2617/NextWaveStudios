@@ -26,11 +26,11 @@
 
 require_once "Mail.php";
 // Change this options:
-$username = 'user@gmail.com';
-$password = 'password';
+$username = 'info@nextwave.studio';
+$password = 'nextWave1!';
 $smtpHost = 'ssl://smtp.gmail.com';
 $smtpPort = '465';
-$to = 'user@gmail.com';
+$to = 'info@nextwave.studio';
 $from = 'user@gmail.com';
 
 $subject = 'Contact Form';

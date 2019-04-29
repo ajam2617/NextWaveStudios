@@ -2436,6 +2436,7 @@ body {
 }
 .textillate .texts {
   display: none;
+  margin-top: 15px;
 }
 /*==================================================================
 14. Icons / .icon-set, .circle, .circle-flat
